@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: #cf2b2b;
+  width: 414px;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+header h1 {
+  width: 248px;
+  height: 44px;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 54px;
+  color: #ffffff;
+  margin-top: 8px;
+  margin-left: 21px;
+}
+
+header p {
+  width: 226px;
+  height: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-left: 21px;
+}
