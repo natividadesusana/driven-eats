@@ -1,9 +1,13 @@
+/* body of the page */
+
 body {
   background-color: #e5e5e57b;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+/* header top */
 
 header {
   background-color: #cf2b2b;
@@ -41,6 +45,8 @@ header p {
   margin-left: 21px;
 }
 
+/* main content */
+
 main {
   background-color: #e5e5e5;
   width: 414px;
@@ -59,8 +65,10 @@ main h2 {
 }
 
 main h2:nth-child(1) {
-    margin-top: 30px;
+  margin-top: 30px;
 }
+
+/* main dishes session */
 
 .main-dishes {
   height: 250px;
@@ -128,6 +136,8 @@ main h2:nth-child(1) {
   line-height: 18px;
   color: #000000;
 }
+
+/* drinking session */
 
 .drinks {
   height: 250px;
@@ -199,6 +209,8 @@ main h2:nth-child(1) {
   color: #000000;
 }
 
+/* dessert session */
+
 .dessert {
   height: 250px;
   margin-top: 15px;
@@ -251,6 +263,7 @@ main h2:nth-child(1) {
   font-weight: 300;
   font-size: 15px;
   line-height: 17px;
+  margin-top: 5px;
   color: #a6a6a6;
 }
 
@@ -261,41 +274,47 @@ main h2:nth-child(1) {
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  margin-top: 20px;
+  margin-top: 10px;
   color: #000000;
 }
 
-/* ::-webkit-scrollbar {
-    display: none;
-} */
+/* hiding scrollbar */
+
+.main-dishes::-webkit-scrollbar,
+.drinks::-webkit-scrollbar,
+.dessert::-webkit-scrollbar {
+  display: none;
+}
+
+/* end footer */
 
 footer {
-    background-color: #FFFFFF;
-    width: 414px;
-    height: 92px;
+  background-color: #ffffff;
+  width: 414px;
+  height: 92px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .finish-button {
-    background-color: #CBCBCB;
-    width: 364px;
-    height: 61px;
-   border-radius: 50px;
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #cbcbcb;
+  width: 364px;
+  height: 61px;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .finish-button h2 {
-    height: 53px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    margin-bottom: 25px;
-    color: #FFFFFF;
-} 
+  height: 53px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
