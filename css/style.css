@@ -94,6 +94,10 @@ main h2:nth-child(1) {
   align-items: center;
 }
 
+.selecting {
+  border: 5px solid #32b72f;
+}
+
 .main-dish-container {
   width: 147px;
 }
@@ -135,6 +139,21 @@ main h2:nth-child(1) {
   font-size: 16px;
   line-height: 18px;
   color: #000000;
+}
+
+.main-dish-container div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-dish-container ion-icon{
+  color: #32B72F;
+  font-size: 20px;
+}
+
+ion-icon {
+  display: none;
 }
 
 /* drinking session */
