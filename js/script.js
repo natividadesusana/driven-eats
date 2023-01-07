@@ -22,30 +22,15 @@ function selectedThird(selectedOption) {
     selectedOption.classList.toggle('selecting');
 }
 
-function finalize(finishing) {
-    const button = document.querySelector('.finalize-order');
-    if (button !== null) {
-        button.innerHTML = 'Fechar pedido';
-        button.classList.remove('selected-button');
+function finalizeOrder() {
+    const foodSession = document.querySelector('.foods .selecting');
+    const drinksSession = document.querySelector('.drinks .selecting');
+    const dessertsSession = document.querySelector('.desserts .selecting');
+    const finishButton = document.querySelector('.finalize-order');
+    if (foodSession !== null && drinksSession !== null && dessertsSession !== null) {
+        finishButton.innerHTML = 'Fechar pedido';
+        finishButton.classList.add('selected-button');
+        finishButton.disabled = false;
     }
-    finishing.classList.add('selected-button');
 }
-
-// let foods;
-// let drinks;
-// let dessert;
-
-// function testando() {
-//     if (selectedFirst() !== undefined) {
-//         console.log("jogo foi selecionado");
-//     }
-//         if (selectedSecond() !== undefined) {
-//             console.log("jogo foi selecionado");
-//         }
-//             if (selectedThird() !== undefined) {
-//                 console.log("jogo foi selecionado");
-//                 const botaoFinalizar = document.querySelector('.finalize-order');
-//                 botaoFinalizar.classList.add('selected-button');
-//             }
-// }
 
