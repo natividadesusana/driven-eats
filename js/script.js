@@ -30,11 +30,12 @@ function finalizeOrder() {
     if (foodSession !== null && drinksSession !== null && dessertsSession !== null) {
         finishButton.innerHTML = 'Fechar pedido';
         finishButton.classList.add('selected-button');
+        finishButton.disabled = false
     }
 }
 
 function orderSubmission() {
-    window.open('https://wa.me/00000000000000?text=' + encodeURIComponent(
+    window.open('https://wa.me/0000000000000?text=' + encodeURIComponent(
         `Olá, gostaria de fazer o pedido:
         - Prato: Frango Yin Yang
         - Bebida: Coquinha Gelada
