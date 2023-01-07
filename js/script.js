@@ -23,16 +23,29 @@ function selectedThird(selectedOption) {
 }
 
 function finalize(finishing) {
-
     const button = document.querySelector('.finalize-order');
     if (button !== null) {
+        button.innerHTML = 'Fechar pedido';
         button.classList.remove('selected-button');
     }
     finishing.classList.add('selected-button');
 }
 
-// function verificaOpcoesSelecionadas() {
-//     if (teste1 !== null) {
-//         console.log("jogo foi selecionado")
+// let foods;
+// let drinks;
+// let dessert;
+
+// function testando() {
+//     if (selectedFirst() !== undefined) {
+//         console.log("jogo foi selecionado");
 //     }
+//         if (selectedSecond() !== undefined) {
+//             console.log("jogo foi selecionado");
+//         }
+//             if (selectedThird() !== undefined) {
+//                 console.log("jogo foi selecionado");
+//                 const botaoFinalizar = document.querySelector('.finalize-order');
+//                 botaoFinalizar.classList.add('selected-button');
+//             }
 // }
+
