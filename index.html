@@ -29,7 +29,7 @@
     <main>
         <h2>Primeiro, seu prato</h2>
         <!-- main dishes session -->
-        <section class="main-dishes teste1">
+        <section class="main-dishes foods">
             <div class="main-dishes-information" onclick="selectedFirst(this)">
                 <div class="main-dish-container">
                     <img src="./img/churrasco.jpeg">
@@ -67,7 +67,7 @@
         </section>
         <h2>Agora, sua bebida</h2>
         <!-- drinking session -->
-        <section class="drinks teste2">
+        <section class="drinks drinks">
             <div class="drinks-information" onclick="selectedSecond(this)">
                 <div class="drinks-container">
                     <img src="./img/guarana.jpeg">
@@ -104,7 +104,7 @@
         </section>
         <h2>Por fim, sua sobremesa</h2>
         <!-- dessert session -->
-        <section class="dessert teste3">
+        <section class="dessert desserts">
             <div class="dessert-information" onclick="selectedThird(this)">
                 <div class="dessert-container">
                     <img src="./img/doce-abacaxi.webp">
@@ -142,7 +142,9 @@
         <!-- end footer -->
         <footer>
             <div class="finish-button">
-                <h2>Selecione os 3 itens <br> para fechar o pedido</h2>
+                <button class="finalize-order" onclick="finalize(this)">
+                    Selecione os 3 itens <br> para fechar o pedido
+                </button>
             </div>
         </footer>
     </main>

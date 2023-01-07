@@ -95,6 +95,10 @@ main h2:nth-child(1) {
   align-items: center;
 }
 
+.main-dishes-information:hover {
+  cursor: pointer;
+}
+
 .selecting {
   border: 5px solid #32b72f;
 }
@@ -184,6 +188,10 @@ main h2:nth-child(1) {
   align-items: center;
 }
 
+.drinks-information:hover {
+  cursor: pointer;
+}
+
 .drinks-container {
   width: 147px;
 }
@@ -262,6 +270,10 @@ main h2:nth-child(1) {
   align-items: center;
 }
 
+.dessert-information:hover {
+  cursor: pointer;
+}
+
 .dessert-container {
   width: 147px;
 }
@@ -301,11 +313,11 @@ main h2:nth-child(1) {
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  margin-top: 10px;
   color: #000000;
 }
 
 .dessert div:nth-child(4) {
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -335,23 +347,23 @@ footer {
   left: auto;
 }
 
-.finish-button {
-  background-color: #cbcbcb;
+.finalize-order {
   width: 364px;
   height: 61px;
   border-radius: 50px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.finish-button h2 {
-  height: 53px;
+  border: none;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-  margin-bottom: 25px;
+  background-color: #CBCBCB;
   color: #ffffff;
+}
+
+.selected-button {
+  background-color: #32b72f;
+}
+
+.finalize-order {
+  cursor: pointer;
 }
