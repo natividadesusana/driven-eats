@@ -21,15 +21,3 @@ function selectedThird(selectedOption) {
     }
     selectedOption.classList.toggle('selecting');
 }
-
-function activateCheck() {
-    const activate = document.querySelector('.check');
-    activate.classList.remove('hidden');
-    console.log(activate)
-}
-
-function disableCheck() {
-    const activate = document.querySelector('.check');
-    activate.classList.add('hidden');
-    console.log(activate)
-}

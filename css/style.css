@@ -99,6 +99,16 @@ main h2:nth-child(1) {
   border: 5px solid #32b72f;
 }
 
+.selecting .check {
+  opacity: 1;
+  color: #32b72f;
+  font-size: 20px;
+}
+
+.check {
+  opacity: 0;
+}
+
 .main-dish-container {
   width: 147px;
 }
@@ -142,21 +152,11 @@ main h2:nth-child(1) {
   color: #000000;
 }
 
-.main-dish-container div {
+.main-dish-container div:nth-child(4) {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.check {
-  color: #32B72F;
-  font-size: 20px;
-}
-
-.hidden {
-  display: none;
-}
-
 
 /* drinking session */
 
@@ -230,6 +230,12 @@ main h2:nth-child(1) {
   color: #000000;
 }
 
+.drinks div:nth-child(4) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* dessert session */
 
 .dessert {
@@ -297,6 +303,12 @@ main h2:nth-child(1) {
   line-height: 18px;
   margin-top: 10px;
   color: #000000;
+}
+
+.dessert div:nth-child(4) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* hiding scrollbar */
