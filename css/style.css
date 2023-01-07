@@ -51,6 +51,7 @@ main {
   background-color: #e5e5e5;
   width: 414px;
   margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 main h2 {
@@ -147,14 +148,15 @@ main h2:nth-child(1) {
   align-items: center;
 }
 
-.main-dish-container ion-icon{
+.check {
   color: #32B72F;
   font-size: 20px;
 }
 
-ion-icon {
+.hidden {
   display: none;
 }
+
 
 /* drinking session */
 
@@ -315,6 +317,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  position: fixed;
+  bottom: 0px;
+  left: auto;
 }
 
 .finish-button {
