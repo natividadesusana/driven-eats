@@ -50,9 +50,9 @@ function orderSubmission() {
     let priceDrink = Number(priceDrinkStr.replace('R$', '').replace(',', '.'));
     let priceDessert = Number(priceDessertStr.replace('R$', '').replace(',', '.'));
 
-    let amount = (priceFood + priceDrink + priceDessert).toFixed(2);
+    let amount = (priceFood + priceDrink + priceDessert).toFixed(2).replace('.', ',');
     
-    const mesage = `Olá, gostaria de fazer o pedido:\n - Prato: ${nameFood} \n - Bebida: ${nameDrink} \n - Sobremesa: ${nameDessert} \n Total: ${amount} \n\n Nome: ${name} \n Endereço: ${address}`;
+    const mesage = `Olá, gostaria de fazer o pedido:\n - Prato: ${nameFood} \n - Bebida: ${nameDrink} \n - Sobremesa: ${nameDessert} \n Total: R$ ${amount} \n\n Nome: ${name} \n Endereço: ${address}`;
     const encode = encodeURIComponent(mesage);
     window.open(`https://wa.me/48000000000?text=${encode}`);
 }
