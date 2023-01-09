@@ -33,3 +33,8 @@ _____
 
 ### Mobile Layout
 
+<img width="412" alt="Captura de Tela 2023-01-07 às 21 26 13" src="https://user-images.githubusercontent.com/95102911/211175218-fcfda5fb-e169-4196-af43-a26020d52edf.png">
+
+<img width="412" alt="Captura de Tela 2023-01-07 às 21 27 44" src="https://user-images.githubusercontent.com/95102911/211175221-e4f17375-6fa5-469d-9f3b-f2cba8bd46c3.png">
+
+
