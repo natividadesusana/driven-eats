@@ -23,16 +23,16 @@
 - Sending the order
      - [ ] When finalizing the order, the user must be forwarded to WhatsApp Web, in conversation with the restaurant contact, already with a pre-filled standard message.
      - [ ] This message must follow this format, the pattern below:
-
+```
     Olá, gostaria de fazer o pedido:
     - Prato: [Nome do Prato]
     - Bebida: [Nome da Bebida]
-    - Sobremesa: [Nome da Sobremesa] <br>
+    - Sobremesa: [Nome da Sobremesa]
     Total: [Valor Total do Pedido] 
       
-    Nome: [Nome do Cliente]<br>
+    Nome: [Nome do Cliente]
     Endereço: [Rua Para Envio do Pedido]
-
+```
 _____
 
 ### Mobile Layout
