@@ -23,11 +23,15 @@
 - Sending the order
      - [ ] When finalizing the order, the user must be forwarded to WhatsApp Web, in conversation with the restaurant contact, already with a pre-filled standard message.
      - [ ] This message must follow this format, the pattern below:
+
     Olá, gostaria de fazer o pedido:
-    - Prato: Frango Yin Yang
-    - Bebida: Coquinha Gelada
-    - Sobremesa: Pudim
-    Total: R$ 27.70
+    - Prato: [Nome do Prato]
+    - Bebida: [Nome da Bebida]
+    - Sobremesa: [Nome da Sobremesa] <br>
+    Total: [Valor Total do Pedido] 
+      
+    Nome: [Nome do Cliente]<br>
+    Endereço: [Rua Para Envio do Pedido]
 
 _____
 
