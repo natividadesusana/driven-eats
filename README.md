@@ -1,5 +1,15 @@
 # Project developed for Bootcamp Driven Education
 
+### *Mobile Layout*
+
+<img width="412" alt="Captura de Tela 2023-01-07 às 21 26 13" src="https://user-images.githubusercontent.com/95102911/211175218-fcfda5fb-e169-4196-af43-a26020d52edf.png">
+
+<img width="412" alt="Captura de Tela 2023-01-07 às 21 27 44" src="https://user-images.githubusercontent.com/95102911/211175221-e4f17375-6fa5-469d-9f3b-f2cba8bd46c3.png">
+
+<img width="411" alt="Captura de Tela 2023-01-09 às 17 15 49" src="https://user-images.githubusercontent.com/95102911/211399701-59b56df0-6527-468f-a3df-103dedb029a7.png">
+
+____
+
 #### Requirements for the project:
 
 - Code versioning
@@ -33,14 +43,5 @@
     Nome: [Nome do Cliente]
     Endereço: [Rua Para Envio do Pedido]
 ```
-_____
-
-### Mobile Layout
-
-<img width="412" alt="Captura de Tela 2023-01-07 às 21 26 13" src="https://user-images.githubusercontent.com/95102911/211175218-fcfda5fb-e169-4196-af43-a26020d52edf.png">
-
-<img width="412" alt="Captura de Tela 2023-01-07 às 21 27 44" src="https://user-images.githubusercontent.com/95102911/211175221-e4f17375-6fa5-469d-9f3b-f2cba8bd46c3.png">
-
-<img width="411" alt="Captura de Tela 2023-01-09 às 17 15 49" src="https://user-images.githubusercontent.com/95102911/211399701-59b56df0-6527-468f-a3df-103dedb029a7.png">
 
 
